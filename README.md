@@ -1,6 +1,15 @@
-# BIST100 Buy/Sell Simulation
-## A React-based portfolio tracking app where users can buy or sell stocks of BIST100 regarding to real data in a simulation
-- It is both responsive and robust in terms of fetching the stock data real time on API (delayed 15 min)
+# Stock Trading Simulator
+
+A responsive, real-time stock trading simulator built with **React** and **SWR**, featuring a clean interface and mock wallet functionality. Users can track stock data, "buy" and "sell" stocks, and monitor their virtual portfolio balance based on real-time data fetched from a public API.
+
+## Features
+
+-  Live stock data updated every second
+-  Buy and sell stocks with a simulated balance
+-  Interactive wallet displaying owned stocks and balance
+-  Stock status indicators (increasing, decreasing, neutral)
+-  Built with functional React components and hooks
+-  Efficient data fetching using [SWR](https://swr.vercel.app/)
 
 ## PC
 ![bist100-simulation-pc](https://github.com/user-attachments/assets/fa918c14-6894-49ef-9516-e451d38f5710)
